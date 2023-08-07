@@ -2,14 +2,14 @@
   "packages":
   [
     {
-      "name": "hynux",
-      "maintainer": "hynux Masters",
+      "name": "hanyoung",
+      "maintainer": "Hanyoung Masters",
       "websiteURL": "https://hynux.com",
       "email" : "powerdeng@hynux.com",
       "platforms":
       [
         {
-          "name": "Hynux Boards",
+          "name": "Hanyoung Boards",
           "architecture": "samd",
           "version": "0.0.1",
           "category": "Contributed",
@@ -19,7 +19,7 @@
           "size": "4387592",
           "boards": [
             {
-              "name": "ITTH_17D"
+              "name": "Hanyoung ITTH"
             }
           ],
           "toolsDependencies":
