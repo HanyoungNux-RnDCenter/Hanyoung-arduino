@@ -1,0 +1,47 @@
+{
+  "packages": [
+    {
+      "name": "hynux",
+      "websiteURL": "https://hunux.com",
+      "platforms": [
+        {
+          "name": "Hynux Boards",
+          "architecture": "samd",
+          "version": "1.1.2",
+          "category": "Hynux",
+          "url": "https://github.com/HanyoungNux-RnDCenter/Hanyoung-arduino/tree/main/hynux-first-arduino-boards-1.1.2.zip",
+          "archiveFileName": "hynux-first-arduino-boards-1.1.2.zip",
+          "checksum": "SHA-256:dd934d2fa0bc39f948345201a783735d40c4471bca2c619f949cdf13571e8f0c",
+          "size": "1601805",
+          "boards": [
+            {
+              "name": "First"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "name": "arm-none-eabi-gcc",
+              "packager": "arduino",
+              "version": "7-2017q4"
+            },
+            {
+              "name": "bossac",
+              "packager": "arduino",
+              "version": "1.6.1-arduino"
+            },
+            {
+              "name": "openocd",
+              "packager": "arduino",
+              "version": "0.9.0-arduino"
+            },
+            {
+              "name": "CMSIS",
+              "packager": "arduino",
+              "version": "4.0.0-atmel"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
