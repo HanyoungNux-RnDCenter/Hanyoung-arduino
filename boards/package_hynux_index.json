@@ -1,0 +1,57 @@
+{
+  "packages":
+  [
+    {
+      "name": "hynux",
+      "maintainer": "hynux Masters",
+      "websiteURL": "https://hynux.com",
+      "email" : "powerdeng@hynux.com",
+      "platforms":
+      [
+        {
+          "name": "Hynux Boards",
+          "architecture": "samd",
+          "version": "0.0.1",
+          "category": "Contributed",
+          "url": "https://github.com/HanyoungNux-RnDCenter/Hanyoung-arduino/blob/main/boards/ITTH_17D.zip?raw=true",
+          "archiveFileName": "ITTH_17D.zip",
+          "checksum": "SHA-256:695ba30f771466cdf7d1c3319dc3fa04c0dbcfe0ed2e55668b39be512a8a062a",
+          "size": "4387592",
+          "boards": [
+            {
+              "name": "ITTH_17D"
+            }
+          ],
+          "toolsDependencies":
+          [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.8.0-48-gb176eee"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino9"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
