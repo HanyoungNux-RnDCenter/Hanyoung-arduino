@@ -11,7 +11,7 @@
           "category": "Hynux",
           "url": "https://github.com/HanyoungNux-RnDCenter/Hanyoung-arduino/tree/main/hynux-first-arduino-boards-1.1.2.zip",
           "archiveFileName": "hynux-first-arduino-boards-1.1.2.zip",
-          "checksum": "SHA-256:ff6a336713dc9ee3ee88855e24e553ab3444807d4c26d16549a5c7a36de3a5a2",
+          "checksum": "SHA-256:90889b3b2523b1f0cb02ebec294c89502fab74e7f7176f83b17fac9095ea13e4",
           "size": "1601805",
           "boards": [
             {
@@ -40,7 +40,7 @@
               "version": "4.0.0-atmel"
             }
           ]
-        },
+        }
       ]
     }
   ]
