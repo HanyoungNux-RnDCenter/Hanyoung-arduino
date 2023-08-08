@@ -14,50 +14,50 @@
 # License along with this library; if not, write to the Free Software
 # Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
-# Test1 (Native USB Port)
+# Hanyoung ITTH 17D (Native USB Port)
 # --------------------------------------
-Test1.name=Test1 (Native USB Port)
-Test1.vid.0=0x2341
-Test1.pid.0=0x804d
-Test1.vid.1=0x2341
-Test1.pid.1=0x004d
-Test1.vid.2=0x2341
-Test1.pid.2=0x824d
-Test1.vid.3=0x2341
-Test1.pid.3=0x024d
-Test1.upload_port.0.vid=0x2341
-Test1.upload_port.0.pid=0x804d
-Test1.upload_port.1.vid=0x2341
-Test1.upload_port.1.pid=0x004d
-Test1.upload_port.2.vid=0x2341
-Test1.upload_port.2.pid=0x824d
-Test1.upload_port.3.vid=0x2341
-Test1.upload_port.3.pid=0x024d
-Test1.upload_port.4.board=Test1
+hanyoung_itth.name=Hanyoung ITTH (Native USB Port)
+hanyoung_itth.vid.0=0x2341
+hanyoung_itth.pid.0=0x804d
+hanyoung_itth.vid.1=0x2341
+hanyoung_itth.pid.1=0x004d
+hanyoung_itth.vid.2=0x2341
+hanyoung_itth.pid.2=0x824d
+hanyoung_itth.vid.3=0x2341
+hanyoung_itth.pid.3=0x024d
+hanyoung_itth.upload_port.0.vid=0x2341
+hanyoung_itth.upload_port.0.pid=0x804d
+hanyoung_itth.upload_port.1.vid=0x2341
+hanyoung_itth.upload_port.1.pid=0x004d
+hanyoung_itth.upload_port.2.vid=0x2341
+hanyoung_itth.upload_port.2.pid=0x824d
+hanyoung_itth.upload_port.3.vid=0x2341
+hanyoung_itth.upload_port.3.pid=0x024d
+hanyoung_itth.upload_port.4.board=HanyoungITTH_17D
 
-Test1.upload.tool=bossac
-Test1.upload.tool.default=bossac
-Test1.upload.tool.network=arduino_ota
-Test1.upload.protocol=sam-ba
-Test1.upload.maximum_size=131072
-Test1.upload.maximum_data_size=16384
-Test1.upload.use_1200bps_touch=true
-Test1.upload.wait_for_upload_port=true
-Test1.upload.native_usb=true
-Test1.build.mcu=cortex-m0plus
-Test1.build.f_cpu=48000000L
-Test1.build.usb_product="Hynux Test1"
-Test1.build.usb_manufacturer="Hynux"
-Test1.build.board=TEST1
-Test1.build.core=arduino
-Test1.build.extra_flags=-D__SAMD21G17D__ {build.usb_flags}
-Test1.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
-Test1.build.openocdscript=openocd_scripts/arduino_zero.cfg
-Test1.build.variant=test1
-Test1.build.variant_system_lib=
-Test1.build.vid=0x2341
-Test1.build.pid=0x804d
-Test1.bootloader.tool=openocd
-Test1.bootloader.tool.default=openocd
-Test1.bootloader.file=itth_17d/bootloader-itth_17d.bin
+hanyoung_itth.upload.tool=bossac
+hanyoung_itth.upload.tool.default=bossac
+hanyoung_itth.upload.tool.network=arduino_ota
+hanyoung_itth.upload.protocol=sam-ba
+hanyoung_itth.upload.maximum_size=131072
+hanyoung_itth.upload.maximum_data_size=16384
+hanyoung_itth.upload.use_1200bps_touch=true
+hanyoung_itth.upload.wait_for_upload_port=true
+hanyoung_itth.upload.native_usb=true
+hanyoung_itth.build.mcu=cortex-m0plus
+hanyoung_itth.build.f_cpu=48000000L
+hanyoung_itth.build.usb_product="Hanyoung ITTH 17D"
+hanyoung_itth.build.usb_manufacturer="Hanyoung Masters"
+hanyoung_itth.build.board=HanyoungITTH_17D
+hanyoung_itth.build.core=arduino
+hanyoung_itth.build.extra_flags=-D__SAMD21G17D__ {build.usb_flags}
+hanyoung_itth.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
+hanyoung_itth.build.openocdscript=openocd_scripts/arduino_zero.cfg
+hanyoung_itth.build.variant=hanyoungitth_17d
+hanyoung_itth.build.variant_system_lib=
+hanyoung_itth.build.vid=0x2341
+hanyoung_itth.build.pid=0x804d
+hanyoung_itth.bootloader.tool=openocd
+hanyoung_itth.bootloader.tool.default=openocd
+hanyoung_itth.bootloader.file=itth_17d/bootloader-itth_17d.bin
 

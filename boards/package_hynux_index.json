@@ -2,24 +2,24 @@
   "packages":
   [
     {
-      "name": "hynux",
-      "maintainer": "hynux Masters",
+      "name": "hanyoung",
+      "maintainer": "Hanyoung Masters",
       "websiteURL": "https://hynux.com",
       "email" : "powerdeng@hynux.com",
       "platforms":
       [
         {
-          "name": "Hynux Boards",
+          "name": "Hanyoung Boards",
           "architecture": "samd",
           "version": "0.0.1",
           "category": "Contributed",
           "url": "https://github.com/HanyoungNux-RnDCenter/Hanyoung-arduino/blob/main/boards/ITTH_17D.zip?raw=true",
           "archiveFileName": "ITTH_17D.zip",
-          "checksum": "SHA-256:695ba30f771466cdf7d1c3319dc3fa04c0dbcfe0ed2e55668b39be512a8a062a",
-          "size": "4387592",
+          "checksum": "SHA-256:ddb74f32407b159350f14b9c1d365f3e2e13ac2067a1fe103daa7db0db3f2f8b",
+          "size": "4387887",
           "boards": [
             {
-              "name": "ITTH_17D"
+              "name": "Hanyoung ITTH"
             }
           ],
           "toolsDependencies":
