@@ -9,10 +9,10 @@
           "architecture": "samd",
           "version": "1.1.2",
           "category": "Hynux",
-          "url": "https://github.com/HanyoungNux-RnDCenter/Hanyoung-arduino/raw/main/hynux-first-arduino-boards-1.1.2.tar.gz",
-          "archiveFileName": "hynux-first-arduino-boards-1.1.2.tar.gz",
-          "checksum": "SHA-256:0106bc6d4b22791299b2834a80389791707b3d79402dd7cfcfe354a954db84e0",
-          "size": "1459189",
+          "url": "https://github.com/HanyoungNux-RnDCenter/Hanyoung-arduino/raw/main/hynux-first-arduino-boards-1.1.2.zip",
+          "archiveFileName": "hynux-first-arduino-boards-1.1.2.zip",
+          "checksum": "SHA-256:96dfb47d4ac144b0b7c3ec4ed20e526da8516d013eb25a3e7429f747e5bb53ed",
+          "size": "1585251",
           "boards": [
             {
               "name": "First"
