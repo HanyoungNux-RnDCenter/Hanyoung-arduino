@@ -11,8 +11,8 @@
           "category": "Hynux",
           "url": "https://github.com/HanyoungNux-RnDCenter/Hanyoung-arduino/raw/main/hynux-first-arduino-boards-1.1.2.tar.gz",
           "archiveFileName": "hynux-first-arduino-boards-1.1.2.tar.gz",
-          "checksum": "SHA-256:0106bc6d4b22791299b2834a80389791707b3d79402dd7cfcfe354a954db84e0",
-          "size": "1459189",
+          "checksum": "SHA-256:e9ffa7f60bbd2d64317ad13e110840aa1a1510010e3632dd69a8ef5943fffe17",
+          "size": "1460256",
           "boards": [
             {
               "name": "First"
