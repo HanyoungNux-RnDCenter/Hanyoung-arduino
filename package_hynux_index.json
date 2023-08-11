@@ -3,14 +3,19 @@
     {
       "name": "hynux",
       "websiteURL": "https://hunux.com",
-	  "tools":[
+	  "tools": [
         {
           "name": "bossac",
           "version": "1.8.0-48-gb176eee",
-		  "url": "https://github.com/HanyoungNux-RnDCenter/Hanyoung-arduino/raw/main/bossac-1.8-48-gb176eee-i686-w64-mingw32.tar.gz"
-		  "archiveFileName": "bossac-1.8-48-gb176eee-i686-w64-mingw32.tar.gz",
-		  "checksum": "SHA-256:f04b228cda6d263999675a70a00467bd871610e697510a6949b2cd0db3dfc603",
-		  "size": "91173"
+          "systems": [
+            {
+              "host": "i686-mingw32",
+			  "url": "https://github.com/HanyoungNux-RnDCenter/Hanyoung-arduino/raw/main/bossac-1.8-48-gb176eee-i686-w64-mingw32.tar.gz"
+			  "archiveFileName": "bossac-1.8-48-gb176eee-i686-w64-mingw32.tar.gz",
+			  "checksum": "SHA-256:f04b228cda6d263999675a70a00467bd871610e697510a6949b2cd0db3dfc603",
+			  "size": "91173"
+			}
+          ]
 		}
 	  ],
       "platforms": [
@@ -36,8 +41,8 @@
             },
             {
               "name": "bossac",
-              "packager": "arduino",
-              "version": "1.6.1-arduino"
+              "packager": "hynux",
+              "version": "1.8.0-48-gb176eee"
             },
             {
               "name": "openocd",
