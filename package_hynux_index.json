@@ -51,8 +51,8 @@
 				"host": "i686-mingw32",
 				"url": "https://github.com/HanyoungNux-RnDCenter/Hanyoung-arduino/raw/main/bossac-1.8-48-gb176eee-i686-w64-mingw32.tar.gz",
 				"archiveFileName": "bossac-1.8-48-gb176eee-i686-w64-mingw32.tar.gz",
-			    "checksum": "SHA-256:f04b228cda6d263999675a70a00467bd871610e697510a6949b2cd0db3dfc603",
-			    "size": "91173"
+			    "checksum": "SHA-256:3b63a8622f5fbf0d524e5034dc19f0ae881c52babd5201981fa7adb2c87a8406",
+			    "size": "91236"
 			}
 		  ]
 		}
